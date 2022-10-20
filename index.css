@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(38, 34, 34);
+}
+/* header-first  */
+section {
+    background: #fff;
+    /* padding-top: 9px; */
+    border-bottom: 1px solid #e5e5e5;
+    width: 100%;
+    float: left;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.container {
+    position: relative;
+    max-width: 100%;
+    padding-top: 9px;
+    height: 32px;
+    margin: 11px 15px;
+}
+h1 {
+    padding-left: 58px;
+    font-size: 10px;
+    position: absolute;
+    top: 0;
+    cursor:auto;
+    margin-top: 5px;
+}
+.top-header-time {
+    position: absolute;
+    display: inline-block;
+    left: 220PX;
+    border-left: 1px solid #ccc;
+    padding-left: 10px;
+    margin-left: 10px;
+    cursor:auto;
+    color: #4f4f4f;
+    margin-top: 2px;
+
+}
+.top-header-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-left: 20px;
+    margin-top: 4px;
+    display: inline-flex;
+}
+.right-lasttest {
+    padding: 7px 14px;
+    border: 1px solid #ccc;
+    margin-left: 30px;
+    border-radius: 3px;
+    color: #4f4f4f;
+}
+.right-international {
+    border: 1px solid #ccc;
+    padding: 7px 21px;
+    margin: 0px 27px;
+    border-radius: 3px;
+    color: #4f4f4f;
+}
+.right-search-btn {
+    max-width: 100%;
+    padding: 5px 0px 5px 10px;
+    margin-left: -2px;
+    border: 1px solid #e5e5e5;
+    border-radius: 16px;
+    top: 0;
+}
+.right-search {
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+.container .right-search-icon,
+.right-user-icon {
+    height: 14px;
+    margin: 0 4px;
+    color: #757575;
+}
+
+.login{
+    right: 0;
+    top: 0;
+    padding: 5px 70px 5px 20px;
+    padding-left: 10px;
+    color: #4f4f4f;
+}
+.fa-solid {
+    padding-right: 5px;
+}
+.right-lasttest:hover,
+.right-international:hover {
+    background-color: #f7f7f7;
+    color: #4f4f4f;
+}
+.login:hover {
+    color: #087cce;
+}
+/* header- second */
+.flexbox {
+    padding: 20px 66px;
+}
+
+.main-nav {
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    padding: 3px 0;
+}
+/* .main-nav li {
+    position: relative;
+} */
+.main-nav .parent {
+    line-height: 35px;
+    justify-content: space-between;
+    padding: 0 80px;
+    list-style-type: none;
+    display: flex;
+}
+.home .right-house-icon {
+    padding: 2px 4px 3px 5px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+}
+.home:hover .right-house-icon{
+    background-color: red;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    z-index: 1;
+    display: none;
+    position: absolute;
+    width: 160px;
+    background-color: #fff;
+    margin-top: -5px;  
+    border-radius: 5px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid red;
+}
+
+.dropdown-content li {
+    display: list-item;
+    list-style-type: none;
+    text-align: left;
+    padding: 0 10px;
+
+}
+.dropdown-content li:hover a {
+    text-decoration-line: underline;
+}
+.main-nav .dropdown:hover .dropdown-content{
+    display:block;
+    background-color: #fff; 
+}
+.dropdown:hover .dropdown-main {
+    color: red;
+}
+.menulist {
+    display: inline-flex;
+}
+.all-menu-main, .right-border-icon {
+    color: #757575;
+}
+.menulist .right-border-icon {
+    margin-top: 10px;
+    margin-left: 7px;
+}
+
+.left-top {
+    width: 780px;
+    height: 310px;
+    background-color: #f7f7f7;
+
+}
+.left-top-img {
+    width: 520px;
+    height: 310px;
+    float: left;
+    margin-right: 20px;
+}
+h2 {
+    font-size: 20px;
+    padding-top: 15px;
+}
+.left-top-p {
+    width: 215px;
+    height: 90px;
+    color: #222;
+    padding: 10px 30px 0 0;
+}
+.left-bottom {
+    position: relative;
+}
+.left-bottom {
+    width: 800px;
+    height: 190px;
+    color: #222;
+}
+.left-bottom-l,
+.left-bottom-m,
+.left-bottom-r {
+    width: 230px;
+    height: 170px;
+    top: 20px;
+    position: absolute;
+}
+.left-bottom-m {
+    margin: 0 0 0 270px;
+}
+.left-bottom-r {
+    right: 0;
+    border-left: 1px solid #4f4f4f;
+    padding: 0 30px 0 20px;
+    margin: 0 20px 0 20px;
+    width: 258px;
+
+}
+
+.left-bottom-img {
+    width: 72px;
+    height: 72px;
+    border-radius: 30px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
